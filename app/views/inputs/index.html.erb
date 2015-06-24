@@ -7,15 +7,15 @@
       <div class="table-responsive">
         <table class="table">
           <thead>
-            <th>Temperature</th>
-            <th>Humidity</th>
-            <th>Dew Point</th>
+            <th>Temperature (F)</th>
+            <th>Humidity (%)</th>
+            <th>Dew Point (%)</th>
             <th>Time</th>
           </thead>
           <tbody>
             <% @inputs.each do |input| %>
               <tr>
-                <td><%= input.temperature %></td>
+                <td><%= (input.temperature * 1.8 + 32).round(2) %></td>
                 <td><%= input.humidity %></td>
                 <td><%= input.dewpoint %></td>
                 <td><%= input.created_at.strftime("%m-%d-%y %I:%M %p %Z") %></td>
@@ -28,4 +28,17 @@
   </div>
 </div>
 
-<%= link_to 'Collect Plant Data', collect_inputs_path, class: "btn btn-success btn-lg" %>
+<div class="col-xs-12">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="panel-title">Plant Data Chart</h1>
+    </div>
+    <div class="panel-body">  
+      <%= line_chart Input.generate_chart_series, id: "plant-chart" %>
+    </div>
+  </div>
+</div>
+
+<div class="col-xs-12">
+  <%= link_to 'Collect Plant Data', collect_inputs_path, class: "btn btn-success btn-lg center-block" %>
+</div>

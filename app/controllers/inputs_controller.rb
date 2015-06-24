@@ -1,6 +1,7 @@
 class InputsController < ApplicationController
   def index
     @inputs = Input.all
+    @data = @inputs
   end
 
   def collect

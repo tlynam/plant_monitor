@@ -8,16 +8,16 @@
         <table class="table">
           <thead>
             <th>Temperature (F)</th>
+            <th>Dew Point (F)</th>
             <th>Humidity (%)</th>
-            <th>Dew Point (%)</th>
             <th>Time</th>
           </thead>
           <tbody>
             <% @inputs.each do |input| %>
               <tr>
                 <td><%= (input.temperature * 1.8 + 32).round(2) %></td>
+                <td><%= (input.dewpoint * 1.8 + 32).round(2) %></td>
                 <td><%= input.humidity %></td>
-                <td><%= input.dewpoint %></td>
                 <td><%= input.created_at.strftime("%m-%d-%y %I:%M %p %Z") %></td>
               </tr>
             <% end %>

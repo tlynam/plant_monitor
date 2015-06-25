@@ -11,7 +11,7 @@ job_type :rbenv_rake, 'export PATH="$HOME/.rbenv/bin:$PATH"; eval "$(rbenv init 
 
 set :output, "~/cron_log.log"
 
-every 1.minute do
+every 15.minutes do
   rbenv_rake "input:collect"
 end
 

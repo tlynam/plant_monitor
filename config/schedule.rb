@@ -15,3 +15,7 @@ every 15.minutes do
   rbenv_rake "input:collect"
 end
 
+every :day, at: '10:00pm' do
+  rbenv_rake "input:animate"
+end
+

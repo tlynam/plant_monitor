@@ -1,6 +1,7 @@
 class InputsController < ApplicationController
   def index
     @inputs = Input.all.paginate(page: params[:page], per_page: 10).order('created_at DESC')
+    @images = Dir.glob("app/assets/images/*.gif")
   end
 
   def collect
@@ -13,3 +14,4 @@ class InputsController < ApplicationController
     end
   end
 end
+

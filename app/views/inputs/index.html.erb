@@ -43,3 +43,8 @@
 <div class="col-xs-12 text-center">
   <%= link_to 'Collect Plant Data', collect_inputs_path, class: "btn btn-success btn-lg" %>
 </div>
+
+<% @images.each do |image| %>
+  <%= image_tag image.split('/').last %>
+<% end %>
+

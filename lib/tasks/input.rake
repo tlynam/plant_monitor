@@ -4,4 +4,10 @@ namespace :input do
   task collect: :environment do
     Input.collect_and_save
   end
+
+  desc "Create daily plant animation"
+  task animate: :environment do
+    Input.create_animation
+  end
 end
+

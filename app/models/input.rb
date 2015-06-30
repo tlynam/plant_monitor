@@ -1,3 +1,5 @@
+include Magick
+
 class Input < ActiveRecord::Base
 
   def self.collect
@@ -7,9 +9,22 @@ class Input < ActiveRecord::Base
     { temperature: Float(values[0]), humidity: Float(values[1]), dewpoint: Float(values[2]) }
   end
 
+  def self.save_picture
+    sun_times = SunTimes.new
+    rise = sun_times.rise(Date.current, 47, -122).localtime
+    set = sun_times.set(Date.current + 1, 47, -122).localtime
+    daylight = rise..set
+
+    if daylight.cover? Time.zone.now
+      %x(fswebcam -r 1280x960 --flip h,v --no-banner app/assets/images/daily/#{Time.now.to_i}.jpg)
+    end
+  end
+
   def self.collect_and_save
     input = Input.new self.collect
     input.save
+
+    self.save_picture
   end
 
   def self.generate_chart_series
@@ -26,5 +41,12 @@ class Input < ActiveRecord::Base
       { name: "Dew Point F", data: dewpoint_series },
       { name: "Humidity %", data: humidity_series }
     ]
+  end
+
+  def self.create_animation
+    images = Dir.glob("app/assets/images/daily/*.jpg")
+    anim = ImageList.new(*images)
+    anim.write("app/assets/images/animations/#{Date.current.to_s}.gif")
+    File.delete(*images)
   end
 end

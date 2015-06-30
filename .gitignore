@@ -16,6 +16,3 @@
 !/log/.keep
 /tmp
 
-# Ignore generated images
-/app/assets/images
-

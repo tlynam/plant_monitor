@@ -40,12 +40,35 @@
   </div>
 </div>
 
+<div class="col-xs-4">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="panel-title">Daily Plant Animations<h1>
+     </div>
+    <div class="panel-body">
+      <div id="links">
+        <ul> 
+          <% @images.each do |image| %>
+            <% file = image.split('/').last.gsub(".gif","") %>
+            <% image_location = "assets/animations/#{file}.gif" %>
+            <li><%= link_to file, image_location, html_options = {title: file} %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="col-xs-12 text-center">
   <%= link_to 'Collect Plant Data', collect_inputs_path, class: "btn btn-success btn-lg" %>
 </div>
-<%# byebug %>
-<% @images.each do |image| %>
-  <% image_path = "animations/#{image.split('/').last}" %>
-  <%= image_tag image_path %>
-<% end %>
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+  <div class="slides"></div>
+  <h3 class="title"></h3>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+</div>
 

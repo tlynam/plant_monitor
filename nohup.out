@@ -1,0 +1,671 @@
+=> Booting WEBrick
+=> Rails 4.2.2 application starting in development on http://192.168.1.119:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2015-07-01 18:57:30] INFO  WEBrick 1.3.1
+[2015-07-01 18:57:30] INFO  ruby 2.2.2 (2015-04-13) [armv6l-linux-eabihf]
+[2015-07-01 18:57:30] INFO  WEBrick::HTTPServer#start: pid=3237 port=3000
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-01 18:58:35 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (3.2ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.7ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (266.2ms)
+Completed 200 OK in 6883ms (Views: 6831.7ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-01 18:58:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-01 18:58:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-01 18:58:48 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-01 18:59:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (3.0ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.5ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (59.4ms)
+Completed 200 OK in 2524ms (Views: 2511.6ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:05 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:05 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:05 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-01 18:59:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-01 19:19:37 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (3.1ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.7ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 2942ms (Views: 2930.1ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-01 19:19:40 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:40 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-01 19:19:40 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:40 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:40 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:42 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:42 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:42 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:42 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:42 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:43 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:43 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-01 19:19:43 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-01 21:00:37 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (32.2ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.4ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (403.1ms)
+Completed 200 OK in 7424ms (Views: 7313.3ms | ActiveRecord: 40.5ms)
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-01 21:00:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-01 21:00:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:48 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:48 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:48 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:48 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:49 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:49 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:49 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:50 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:50 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:50 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:50 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:50 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-01 21:00:51 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.1.1 at 2015-07-01 21:54:44 -0700
+Cannot render console from 192.168.1.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (2.9ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (3.3ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (66.9ms)
+Completed 200 OK in 2429ms (Views: 2416.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/" for 79.105.145.46 at 2015-07-01 22:29:58 -0700
+Cannot render console from 79.105.145.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (5.7ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.5ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 2577ms (Views: 2562.8ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/user/soapCaller.bs" for 118.98.104.21 at 2015-07-02 01:39:49 -0700
+Cannot render console from 118.98.104.21! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/user/soapCaller.bs"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.0ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (28.0ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (133.9ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.2ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (634.3ms)
+
+
+Started GET "/inputs/collect" for 192.168.1.231 at 2015-07-02 06:01:54 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#collect as HTML
+Completed 500 Internal Server Error in 398ms (ActiveRecord: 0.0ms)
+
+TypeError (wrong argument type Class (expected Proc)):
+  app/models/input.rb:7:in `collect'
+  app/controllers/inputs_controller.rb:8:in `collect'
+
+
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (181.2ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (68.5ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (22.9ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (491.3ms)
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-02 06:01:57 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (3.0ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.4ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (61.4ms)
+Completed 200 OK in 2902ms (Views: 2890.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-02 06:02:00 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:00 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:00 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-02 06:02:00 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:01 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:02 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/animations/2015-07-01.gif" for 192.168.1.231 at 2015-07-02 06:02:06 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/loading.gif" for 192.168.1.231 at 2015-07-02 06:02:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/play-pause.svg" for 192.168.1.231 at 2015-07-02 06:02:07 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.1.231 at 2015-07-02 06:02:41 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#index as HTML
+  [1m[35mInput Load (3.3ms)[0m  SELECT  "inputs".* FROM "inputs"  ORDER BY created_at DESC LIMIT 10 OFFSET 0
+  [1m[36mInput Load (2.5ms)[0m  [1mSELECT "inputs".* FROM "inputs"[0m
+  Rendered inputs/index.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 2555ms (Views: 2529.5ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/blueimp-gallery.self-7b6e622db1a201eafce5e310b0668e440e8e75273a04aa3e412b8c07c1c59e1e.css?body=1" for 192.168.1.231 at 2015-07-02 06:02:44 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-eed5a73dee520a7bfb128330eb26277480e37028b5b76a1a1309eb82188b4b03.css?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:45 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:46 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/blueimp-gallery.min.self-8d566987d962698acaeff7cbf15ac9a06f90a6902e99fa939eecbd40142580c5.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6b330ebd8903352cb648d84c65e5d2aa0da34fad87bba821f8adb8e8481a2f69.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/chartkick.self-c33f97212de7f499029d66ddf93fb10e12286d4bf207b6fbeaabb0e93a03e9f7.js?body=1" for 192.168.1.231 at 2015-07-02 06:02:47 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/inputs/collect" for 192.168.1.231 at 2015-07-02 06:51:58 -0700
+Cannot render console from 192.168.1.231! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InputsController#collect as HTML
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms)
+
+TypeError (wrong argument type Class (expected Proc)):
+  app/models/input.rb:7:in `collect'
+  app/controllers/inputs_controller.rb:8:in `collect'
+
+
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (176.6ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (67.9ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (25.1ms)
+  Rendered /home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (466.6ms)
+[2015-07-02 06:56:15] FATAL SignalException: SIGTERM
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands/server.rb:80:in `start'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands/commands_tasks.rb:75:in `tap'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands/commands_tasks.rb:75:in `server'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.2/lib/rails/commands.rb:17:in `<top (required)>'
+	/home/pi/plant_monitor/bin/rails:8:in `require'
+	/home/pi/plant_monitor/bin/rails:8:in `<top (required)>'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/client/rails.rb:28:in `load'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/client/rails.rb:28:in `call'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/client/command.rb:7:in `call'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/client.rb:26:in `run'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/bin/spring:48:in `<top (required)>'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/binstub.rb:11:in `load'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/spring-1.3.6/lib/spring/binstub.rb:11:in `<top (required)>'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	/home/pi/.rbenv/versions/2.2.2/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	/home/pi/plant_monitor/bin/spring:13:in `<top (required)>'
+	bin/rails:3:in `load'
+	bin/rails:3:in `<main>'
+[2015-07-02 06:56:15] INFO  going to shutdown ...
+[2015-07-02 06:56:15] INFO  WEBrick::HTTPServer#start done.
+Exiting

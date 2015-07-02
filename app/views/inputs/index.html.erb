@@ -15,8 +15,8 @@
           <tbody>
             <% @inputs.each do |input| %>
               <tr>
-                <td><%= (input.temperature * 1.8 + 32).round(2) %></td>
-                <td><%= (input.dewpoint * 1.8 + 32).round(2) %></td>
+                <td><%= input.fahrenheit_temperature %></td>
+                <td><%= input.fahrenheit_dewpoint %></td>
                 <td><%= input.humidity %></td>
                 <td><%= input.created_at.strftime("%m-%d-%y %I:%M %p %Z") %></td>
               </tr>
@@ -48,10 +48,8 @@
     <div class="panel-body">
       <div id="links">
         <ul> 
-          <% @images.each do |image| %>
-            <% file = image.split('/').last.gsub(".gif","") %>
-            <% image_location = "assets/animations/#{file}.gif" %>
-            <li><%= link_to file, image_location, html_options = {title: file} %></li>
+          <% @images_info.each do |image| %>
+            <li><%= link_to image[:date], image[:path], html_options: { title: image[:date] } %></li>
           <% end %>
         </ul>
       </div>

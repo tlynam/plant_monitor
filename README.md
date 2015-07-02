@@ -1,5 +1,3 @@
-== README
-
 Theis plant monitor hooks up to a Raspberry Pi with this sensor:
 https://www.adafruit.com/products/1298
 
